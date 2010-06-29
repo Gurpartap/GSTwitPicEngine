@@ -1,17 +1,17 @@
 
 GSTwitPicEngine
-=============
+===============
 
 GSTwitPicEngine provides easy to implement wrapper around the TwitPic.com's OAuth (v1) and OAuth Echo (v2) API for iPhone application projects.
 
 Requirements
 ------------
 
- * **ASIHTTPRequest** - [http://allseeing-i.com/ASIHTTPRequest/] 
- * **OAuthConsumer** - [http://github.com/jdg/oauthconsumer]
- * **OARequestHeader** - [http://github.com/Gurpartap/OARequestHeader]
+ * **ASIHTTPRequest** - http://allseeing-i.com/ASIHTTPRequest/
+ * **OAuthConsumer** - http://github.com/jdg/oauthconsumer
+ * **OARequestHeader** - http://github.com/Gurpartap/OARequestHeader
  * One of these **JSON parsers**:
-   - yajl & yajl-objc (enabled by default) - [http://github.com/gabriel/yajl-objc]
+   - yajl & yajl-objc (enabled by default) - http://github.com/gabriel/yajl-objc
    - TouchJSON
    - SBJSON
  * MGTwitterEngine or anything of your choice that supplies the **OAToken instance** (from OAuthConsumer).
@@ -43,7 +43,7 @@ Usage
 * Upon end of request, one of the delegate methods is called with appropriate data and information.
 
 GSTwitPicEngineDelegate
---------------------------------------
+-----------------------
 
  * GSTwitPicEngineDelegate protocol specifies two delegate methods:
 
@@ -68,7 +68,27 @@ GSTwitPicEngineDelegate
 }
 </pre>
 
-[http://allseeing-i.com/ASIHTTPRequest/]: http://allseeing-i.com/ASIHTTPRequest/
-[http://github.com/jdg/oauthconsumer]: http://github.com/jdg/oauthconsumer
-[http://github.com/Gurpartap/OARequestHeader]: http://github.com/Gurpartap/OARequestHeader
-[http://github.com/gabriel/yajl-objc]: http://github.com/gabriel/yajl-objc
+Contact
+-------
+
+Find me on Twitter: http://twitter.com/Gurpartap
+Or use the form at http://gurpartap.com/contact to talk privately (ooooh!!).
+
+License
+-------
+
+Copyright (c) 2010 Gurpartap Singh, http://gurpartap.com/
+
+This code is licensed under the MIT License
+
+You are free:
+
+ * to Share — to copy, distribute and transmit the work
+ * to Remix — to adapt the work
+
+Under the following conditions:
+
+ * The copyright notice and license shall be included in all copies or substantial portions of the software.
+ * Any of the above conditions can be waived if you get permission from the copyright holder.
+
+See bundled MIT-LICENSE.txt file for detailed license terms.
