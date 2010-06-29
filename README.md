@@ -23,7 +23,7 @@ Usage
  * See GSTwitPicEngine.h to configure TwitPic API Format (XML or JSON) and to set which JSON Parser to use.
  * Add header file:
 
-        #import "GSTwitPicEngine.h"
+        #import "GSTwitPicEngine.h" 
  * Setup retained (@synthesize) instance var/property in the header:
 
         GSTwitPicEngine *twitpicEngine;
